@@ -6,13 +6,13 @@ import { BrowserRouter,Route,Routes } from "react-router-dom"
 export default function Router(){
     return(
         <div className="routes">
-            <BrowserRouter>
-               <Routes>
-                 <Route  path="/" element={<FormStep1/>}></Route>
-                 <Route  path="/step2" element={<FormStep2/>} ></Route>
-                 <Route  path="/step3" element={<FormStep3/>}></Route>
-               </Routes>
-            </BrowserRouter>
+             <BrowserRouter>
+                <Routes>
+                  <Route  path="/" element={<FormStep1/>}></Route>
+                  <Route  path="/step2" element={<FormStep2/>} ></Route>
+                  <Route  path="/step3" element={<FormStep3/>}></Route>
+                </Routes>
+             </BrowserRouter>
         </div>
     )
 }
