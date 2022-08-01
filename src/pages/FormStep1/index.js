@@ -3,6 +3,7 @@ import {useDispatch, useSelector} from 'react-redux'
 import { innitialState } from '../../reducers/StepReucer'
 import Header from '../../components/header/Header'
 import './style.css'
+import Theme from '../../components/theme'
 
 export default function FormStep1(){
 
@@ -11,7 +12,7 @@ export default function FormStep1(){
 
     return(
         <div className="formstep1">
-            <Header></Header>
+            <Theme></Theme>
         </div>
     )
 }
