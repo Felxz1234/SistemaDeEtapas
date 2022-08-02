@@ -9,6 +9,10 @@
     font-size:25px;
 }
 
+.imgs{
+    width: 40px;
+}
+
 .selection{
     display:flex;
     /* border:2px solid ; */

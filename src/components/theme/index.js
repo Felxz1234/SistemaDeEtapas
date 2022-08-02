@@ -13,15 +13,15 @@ function Theme({children}){
                        <Selection
                            title="Pessoal"
                            description="Se identifique"
-                           icon="profile.svg"
+                           icon="https://cdn-icons-png.flaticon.com/512/647/647573.png?w=360"
                        ></Selection>
-                       <Selection title="Profissional"
-                            description="Seu nível"
-                            icon="book.svg"></Selection>
+                       <Selection title="Educação"
+                            description="grau de escolaridade"
+                            icon="https://cdn-icons-png.flaticon.com/512/571/571563.png"></Selection>
                        <Selection
                           title = "contatos"
                           description="Como te achar"
-                          icon="profile.svg"
+                          icon="https://cdn-icons-png.flaticon.com/512/15/15895.png"
                        ></Selection>
                     </div>
                     <div className="page">
