@@ -24,6 +24,8 @@
 
 
 
+
+
 }
 
 .info{
@@ -40,4 +42,9 @@
 .description{
      font-size:14px;
     color:#B888D4;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
 }

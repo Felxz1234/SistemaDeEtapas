@@ -4,7 +4,7 @@ export const innitialState = {
     name:'',
     level:0,
     email:'',
-    github:'',
+    number:0,
 }
 
 
@@ -22,8 +22,8 @@ export function StepReducer(state=innitialState, action){
         case 'email':
             return {...state,email:action.payload};  
 
-        case 'github':
-            return {...state,github:action.payload};  
+        case 'number':
+            return {...state,number:action.payload};  
             
         default:
             return state 

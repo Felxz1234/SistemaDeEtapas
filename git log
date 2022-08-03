@@ -1,0 +1,35 @@
+[33mcommit ca86742f1a4c08544027dec50a04bd8f780776b9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Felipe Fail <felps134679@gmail.com>
+Date:   Tue Aug 2 00:12:23 2022 -0300
+
+    estilização da 1 pagina finalizada
+
+[33mcommit 1e05c190e144f0f262c4393abca145df1742efa2[m
+Author: Felipe Fail <felps134679@gmail.com>
+Date:   Mon Aug 1 20:44:46 2022 -0300
+
+    modificação do Header,criação do componente selection e estilização de ambos
+
+[33mcommit 834ec36b0ef093689d025dd3a8b24d2248347702[m
+Author: Felipe Fail <felps134679@gmail.com>
+Date:   Sun Jul 31 23:22:56 2022 -0300
+
+    criação do componente Theme
+
+[33mcommit 8ad4c28eff3a8513950a51a27934fd7659eda3bc[m
+Author: Felipe Fail <felps134679@gmail.com>
+Date:   Sun Jul 31 22:58:51 2022 -0300
+
+    criação do Header e corrigimento do reducer
+
+[33mcommit d62bcd36c16d58772a9a3d85cd43a56e552a92f5[m
+Author: Felipe Fail <felps134679@gmail.com>
+Date:   Fri Jul 29 20:51:39 2022 -0300
+
+    criando as paginas 1 2 e 3
+
+[33mcommit 2f33b7c8b4f1a8908743e9ae3411131046a8887c[m
+Author: Felipe Fail <felps134679@gmail.com>
+Date:   Fri Jul 29 20:09:27 2022 -0300
+
+    atualizando
