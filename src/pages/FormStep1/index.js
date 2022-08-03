@@ -46,6 +46,7 @@ export default function FormStep1(){
                    <hr></hr>
                    <label>Seu nome completo</label>
                     <input 
+                         name='name'
                          value={dados.name}
                          onChange={handleChangeName}
                          autoFocus type={'text'}>

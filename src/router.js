@@ -1,6 +1,7 @@
 import FormStep1 from "./pages/FormStep1"
 import FormStep2 from "./pages/FormStep2"
 import FormStep3 from "./pages/FormStep3"
+import Finalized from "./pages/Finalized"
 import { BrowserRouter,Route,Routes } from "react-router-dom"
 
 export default function Router(){
@@ -11,6 +12,7 @@ export default function Router(){
                   <Route  path="/" element={<FormStep1/>}></Route>
                   <Route  path="/step2" element={<FormStep2/>} ></Route>
                   <Route  path="/step3" element={<FormStep3/>}></Route>
+                  <Route  path="/finalized" element={<Finalized/>}></Route>
                 </Routes>
              </BrowserRouter>
         </div>

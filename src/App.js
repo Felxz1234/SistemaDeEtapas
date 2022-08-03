@@ -2,8 +2,7 @@ import React from "react"
 import Router from "./router"
 import  {Provider} from "react-redux"
 import {createStore} from 'redux'
-import {StepReducer,innitialState} from "./reducers/StepReucer"
-import { useState,useEffect } from "react"
+import {StepReducer} from "./reducers/StepReucer"
 
 
 function App(){
