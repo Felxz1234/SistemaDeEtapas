@@ -1,9 +1,18 @@
 import './finalized.css'
 import { useSelector } from 'react-redux'
+import { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function Finalized(){
 
+    const history = useNavigate()
     const dados = useSelector((dados)=>{return dados})
+
+    useEffect(()=>{
+        if(dados.name == ''){
+            history('/')
+        }
+    },[])
 
     return(
         <div className="finalized">
