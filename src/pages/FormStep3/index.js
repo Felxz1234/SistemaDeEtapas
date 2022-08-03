@@ -40,13 +40,14 @@ export default function FormStep3(){
     }
 
     function handleNextStep(){
-        if(dados.email == '' & dados.number =='' ){
-            alert('coloque os dados correspondentes')
+        if(dados.email == '' & dados.number == ''){
+            alert('coloque pelo menos 1 dos dados correspondentes')
         }else{
             history('/finalized')
         }
     }
 
+ 
     return(
         <div className="formstep2">
             <Theme>
